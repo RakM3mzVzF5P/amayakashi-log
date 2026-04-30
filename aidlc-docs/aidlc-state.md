@@ -1,39 +1,39 @@
-# AI-DLC State Tracking
+# AI-DLC 状態管理
 
-## Project Information
-- **Project Name**: amayakashi-log
-- **Project Type**: Greenfield
-- **Start Date**: 2026-04-30T09:00:00Z
-- **Current Stage**: INCEPTION - Units Generation (COMPLETED)
+## プロジェクト情報
+- **プロジェクト名**: amayakashi-log
+- **プロジェクト種別**: グリーンフィールド（新規）
+- **開始日**: 2026-04-30T09:00:00Z
+- **現在のステージ**: インセプション - ユニット生成（完了）
 
-## Workspace State
-- **Existing Code**: No
-- **Reverse Engineering Needed**: No
-- **Workspace Root**: C:\Users\h-takayanagi\Hackathon
+## ワークスペース状態
+- **既存コード**: なし
+- **リバースエンジニアリング**: 不要
+- **ワークスペースルート**: C:\Users\h-takayanagi\Hackathon
 
-## Code Location Rules
-- **Application Code**: Workspace root (NEVER in aidlc-docs/)
-- **Documentation**: aidlc-docs/ only
-- **Structure patterns**: See code-generation.md Critical Rules
+## コード配置ルール
+- **アプリケーションコード**: ワークスペースルート（aidlc-docs/ には絶対に置かない）
+- **ドキュメント**: aidlc-docs/ のみ
+- **構造パターン**: code-generation.md の重要ルールを参照
 
-## Extension Configuration
-| Extension | Enabled | Decided At |
+## 拡張機能設定
+| 拡張機能 | 有効 | 決定タイミング |
 |---|---|---|
-| Security Baseline | No | Requirements Analysis |
-| Property-Based Testing | Partial (純粋関数とシリアライゼーションのみ) | Requirements Analysis |
+| セキュリティベースライン | 無効 | 要件分析 |
+| プロパティベーステスト | 部分適用（純粋関数とシリアライゼーションのみ） | 要件分析 |
 
-## Stage Progress
-### INCEPTION PHASE
-- [x] Workspace Detection (COMPLETED - 2026-04-30T09:00:00Z)
-- [x] Requirements Analysis (COMPLETED - 2026-04-30T09:15:00Z)
-- [x] User Stories (COMPLETED - 2026-04-30T09:55:00Z)
-- [x] Workflow Planning (COMPLETED - 2026-04-30T10:05:00Z)
-- [x] Application Design (COMPLETED - 2026-04-30T10:35:00Z)
-- [x] Units Generation (COMPLETED - 2026-04-30T10:50:00Z)
+## ステージ進捗
+### インセプションフェーズ
+- [x] ワークスペース検出（完了 - 2026-04-30T09:00:00Z）
+- [x] 要件分析（完了 - 2026-04-30T09:15:00Z）
+- [x] ユーザーストーリー（完了 - 2026-04-30T09:55:00Z）
+- [x] ワークフロー計画（完了 - 2026-04-30T10:05:00Z）
+- [x] アプリケーション設計（完了 - 2026-04-30T10:35:00Z）
+- [x] ユニット生成（完了 - 2026-04-30T10:50:00Z）
 
-### CONSTRUCTION PHASE
-- [ ] Per-Unit Design and Code Generation (PENDING)
-- [ ] Build and Test (PENDING)
+### コンストラクションフェーズ
+- [ ] ユニット別設計・コード生成（未着手）
+- [ ] ビルドとテスト（未着手）
 
-### OPERATIONS PHASE
-- [ ] Operations (PLACEHOLDER)
+### オペレーションフェーズ
+- [ ] オペレーション（プレースホルダー）

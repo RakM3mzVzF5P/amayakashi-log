@@ -64,26 +64,26 @@
 flowchart TD
     Start(["User Request"])
     
-    subgraph INCEPTION["🔵 INCEPTION PHASE"]
-        WD["Workspace Detection<br/><b>COMPLETED</b>"]
-        RA["Requirements Analysis<br/><b>COMPLETED</b>"]
-        US["User Stories<br/><b>COMPLETED</b>"]
-        WP["Workflow Planning<br/><b>IN PROGRESS</b>"]
-        AD["Application Design<br/><b>EXECUTE</b>"]
-        UG["Units Generation<br/><b>EXECUTE</b>"]
+    subgraph INCEPTION["🔵 インセプションフェーズ"]
+        WD["ワークスペース検出<br/><b>完了</b>"]
+        RA["要件分析<br/><b>完了</b>"]
+        US["ユーザーストーリー<br/><b>完了</b>"]
+        WP["ワークフロー計画<br/><b>進行中</b>"]
+        AD["アプリケーション設計<br/><b>実行予定</b>"]
+        UG["ユニット生成<br/><b>実行予定</b>"]
     end
     
-    subgraph CONSTRUCTION["🟢 CONSTRUCTION PHASE"]
-        FD["Functional Design<br/>(per-unit)<br/><b>EXECUTE</b>"]
-        NFRA["NFR Requirements<br/>(per-unit)<br/><b>EXECUTE</b>"]
-        NFRD["NFR Design<br/>(per-unit)<br/><b>EXECUTE</b>"]
-        ID["Infrastructure Design<br/>(per-unit)<br/><b>EXECUTE</b>"]
-        CG["Code Generation<br/>(per-unit)<br/><b>EXECUTE</b>"]
-        BT["Build and Test<br/><b>EXECUTE</b>"]
+    subgraph CONSTRUCTION["🟢 コンストラクションフェーズ"]
+        FD["機能設計<br/>（ユニット別）<br/><b>実行予定</b>"]
+        NFRA["NFR要件<br/>（ユニット別）<br/><b>実行予定</b>"]
+        NFRD["NFR設計<br/>（ユニット別）<br/><b>実行予定</b>"]
+        ID["インフラ設計<br/>（ユニット別）<br/><b>実行予定</b>"]
+        CG["コード生成<br/>（ユニット別）<br/><b>実行予定</b>"]
+        BT["ビルドとテスト<br/><b>実行予定</b>"]
     end
     
-    subgraph OPERATIONS["🟡 OPERATIONS PHASE"]
-        OPS["Operations<br/><b>PLACEHOLDER</b>"]
+    subgraph OPERATIONS["🟡 オペレーションフェーズ"]
+        OPS["オペレーション<br/><b>プレースホルダー</b>"]
     end
     
     Start --> WD
